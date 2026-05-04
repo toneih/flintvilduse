@@ -6,9 +6,14 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     font-family: Arial, sans-serif;
     padding: 20px;
+}
+
+.container {
+    width: 50%;
+    max-width: 500px;
 }
 
 h1 {
@@ -16,27 +21,17 @@ h1 {
     text-align: center;
     font-size: 48px;
     margin-bottom: 40px;
-    width: 100%;
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .gallery {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    width: 100%;
 }
 
 .image-item {
-    width: 50%;
-    max-width: 300px;
+    width: 100%;
     text-align: center;
 }
 
