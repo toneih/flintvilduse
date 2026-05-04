@@ -10,10 +10,45 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: Arial, sans-serif;
+    flex-direction: column;
+    padding: 20px;
 }
 
 h1 {
     color: black;
     text-align: center;
     font-size: 48px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.image-item {
+    width: 50%;
+    max-width: 300px;
+    text-align: center;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-item p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: black;
 }
